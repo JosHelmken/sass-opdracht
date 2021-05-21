@@ -1,0 +1,9 @@
+$color-a: #97d279;
+$color-b: #c0eea9;
+$default-padding: 20px ;
+
+@mixin text {
+  max-width: 700px;
+  text-align: center;
+  padding: $default-padding;
+}
